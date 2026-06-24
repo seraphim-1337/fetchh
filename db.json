@@ -1,0 +1,8 @@
+{
+  "todos": [
+    {"id": "1", "text": "Buy milk :)", "time": "18:44"},
+    {"id": "2", "text": "End the project", "time": "18:44"},
+    {"id": "3", "text": "Call mom", "time": "18:44"},
+    {"id": "4", "text": "Sleep 10 hrs", "time": "18:44"}
+  ]
+}

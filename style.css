@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid #1e74fd;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    text-align: left;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #b7dbff;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card p {
+    margin: 0 0 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card span {
+    font-size: 11px;
+    color: #888;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.todo-text {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.todo-text:hover {
+    color: #0070f3;
+}
+
+
+.edit-input {
+    width: 85%;
+    padding: 4px 8px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #1e74fd;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+}
